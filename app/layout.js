@@ -15,6 +15,9 @@ export default function RootLayout({ children }) {
       <body>
         {children}
       </body>
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
+      </style>
       <BootstrapClientJs />
     </html>
   );
