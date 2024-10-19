@@ -1,1 +1,30 @@
-@import url('./fonts/WEB/css/telma.css');
+@import url("./fonts/WEB/css/telma.css");
+
+.custom-outline-btn {
+  border: 2px solid #ffffff; /* Set the border color to match your primary color */
+  background-color: transparent; /* Make background transparent */
+  color: #ffffff; /* Set text color */
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-size: large;
+}
+
+.custom-outline-btn:hover {
+  background-color: #0e6937; /* On hover, change background to primary color */
+  color: #fff; /* Change text color to white */
+}
+
+.custom-card-outline-btn {
+    border: 2px solid #0e6937; /* Set the border color to match your primary color */
+    background-color: transparent; /* Make background transparent */
+    color: #0e6937; /* Set text color */
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .custom-card-outline-btn:hover {
+    background-color: #0e6937; /* On hover, change background to primary color */
+    color: #fff; /* Change text color to white */
+  }

@@ -1,11 +1,12 @@
 import Header from "./components/header/header";
 import CenteredHero from "./components/heroes/centeredHero";
+import IntrestHero from "./components/heroes/intrestHero";
 
 export default function Home() {
   return (
     <div>
       <Header />
-      <div style={{ position: "relative", height: "100vh", overflow: "hidden" }}>
+      <div class='mb-5' style={{ position: "relative", height: "100vh", overflow: "hidden" }}>
         {/* Background with blur */}
         <div
           style={{
@@ -32,6 +33,9 @@ export default function Home() {
           <CenteredHero />
         </div>
       </div>
+      
+      <IntrestHero />  {/* Interest Hero */}
+
     </div>
 
   );
