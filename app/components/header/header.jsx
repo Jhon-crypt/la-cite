@@ -26,8 +26,8 @@ export default function Header() {
 
                         </ul>
                         <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search lands" aria-label="Search" />
-                            <button class="btn btn-md text-white" type="submit" style={{ backgroundColor: "#0E6937" }}>Login</button>
+                            <input class="form-control me-2" type="search" placeholder="Search lands" aria-label="Search" style={{ borderRadius: "20px"}}/>
+                            <button class="btn btn-md text-white" type="submit" style={{ backgroundColor: "#0E6937", borderRadius: "20px" }}>Login</button>
                         </form>
                     </div>
                 </div>
